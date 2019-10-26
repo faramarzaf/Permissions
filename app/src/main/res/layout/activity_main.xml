@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnCamera"
+        style="@style/btnTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_btns"
+        android:text="Camera permission"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnWriteExternalStorage"
+        style="@style/btnTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_btns"
+        android:backgroundTint="#FB8C00"
+        android:text="Write External Storage"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAccessFineLocation"
+        style="@style/btnTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_btns"
+        android:backgroundTint="#D81B60"
+        android:text="Access fine location"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnContacts"
+        style="@style/btnTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_btns"
+        android:backgroundTint="#7CB342"
+        android:text="Contacts"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
